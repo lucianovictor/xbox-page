@@ -1,6 +1,11 @@
 import Head from 'next/head'
-import styles from 'styles/home.module.scss'
+
 import { BannerHero } from 'components/BannerHero'
+import { Info } from 'components/info'
+import { Games } from 'components/Games'
+
+import styles from 'styles/home.module.scss'
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -9,10 +14,8 @@ export default function Home() {
       </Head>
 
       <BannerHero />
-
-      <section>
-        <h1>olar</h1>
-      </section>
+      <Info />
+      <Games />
     </div>
   )
 }
