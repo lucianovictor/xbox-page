@@ -13,7 +13,7 @@ export default class MyDocument extends Document {
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="pt_BR" />
           <meta property="og:site_name" content="NextJS Boilerplate" />
-          <meta name="author" content="Leonardo Luis de Vargas" />
+          <meta name="author" content="Luciano Victor" />
 
           <link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Press+Start+2P&display=swap"
