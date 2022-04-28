@@ -10,4 +10,10 @@
     width: 100%;
     max-width: 1228px;
   }
+
+  @media (max-width: 1228px) {
+    header, footer {
+      padding: 3rem 2rem;
+    }
+  }
 }
